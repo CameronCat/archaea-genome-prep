@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archaea-genome-prep"
+version = "0.1.0"
+description = "Validate, clean, and annotate archaeal genome FASTA files for downstream bioinformatic analysis"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+keywords = ["archaea", "genome", "annotation", "Prokka", "FASTA", "Methanosarcina", "bioinformatics"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+# No hard dependencies - pure stdlib
+# Prokka is a soft dependency detected at runtime
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pytest-cov"]
+
+[project.urls]
+Homepage = "https://github.com/CameronPiepkorn/archaea-genome-prep"
+"Bug Tracker" = "https://github.com/CameronPiepkorn/archaea-genome-prep/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["archaea_genome_prep*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--tb=short -v"
+
+[tool.coverage.run]
+source = ["archaea_genome_prep"]

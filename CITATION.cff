@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: archaea-genome-prep
+message: >-
+  If you use this software in your research, please cite it
+  using the metadata from this file.
+type: software
+version: 0.1.0
+date-released: "2026-04-20"
+authors:
+  - family-names: Piepkorn
+    given-names: Cameron
+    affiliation: Independent Researcher
+abstract: >-
+  archaea-genome-prep is a Python library for validating, cleaning,
+  and preparing archaeal genome FASTA files for downstream annotation
+  and bioinformatic analysis. It validates FASTA files for common
+  errors, removes short contigs, standardises sequence headers, and
+  wraps Prokka annotation with archaeal-appropriate settings.
+  Designed as a companion tool for archaeal genome analysis pipelines
+  that require annotated GenBank files as input.
+keywords:
+  - archaea
+  - genome
+  - annotation
+  - Prokka
+  - FASTA
+  - Methanosarcina
+  - methanogen
+  - bioinformatics
+license: MIT
+repository-code: "https://github.com/CameronPiepkorn/archaea-genome-prep"
+url: "https://github.com/CameronPiepkorn/archaea-genome-prep"
+references:
+  - type: article
+    authors:
+      - family-names: Seemann
+        given-names: Torsten
+    title: "Prokka: rapid prokaryotic genome annotation"
+    journal: Bioinformatics
+    volume: 30
+    issue: 14
+    start: 2068
+    end: 2069
+    year: 2014
