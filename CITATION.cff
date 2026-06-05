@@ -7,9 +7,10 @@ type: software
 version: 0.1.0
 date-released: "2026-04-20"
 authors:
-  - family-names: Piepkorn
+  - family-names: Pham
     given-names: Cameron
-    affiliation: Independent Researcher
+    affiliation: UC Berkeley
+    orcid: "https://orcid.org/0009-0005-8364-8420"
 abstract: >-
   archaea-genome-prep is a Python library for validating, cleaning,
   and preparing archaeal genome FASTA files for downstream annotation
@@ -28,8 +29,8 @@ keywords:
   - methanogen
   - bioinformatics
 license: MIT
-repository-code: "https://github.com/CameronPiepkorn/archaea-genome-prep"
-url: "https://github.com/CameronPiepkorn/archaea-genome-prep"
+repository-code: "https://github.com/CameronCat/archaea-genome-prep"
+url: "https://github.com/CameronCat/archaea-genome-prep"
 references:
   - type: article
     authors:

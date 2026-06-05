@@ -1,6 +1,6 @@
 # archaea-genome-prep
 
-[![CI](https://github.com/CameronPiepkorn/archaea-genome-prep/actions/workflows/ci.yml/badge.svg)](https://github.com/CameronPiepkorn/archaea-genome-prep/actions)
+[![CI](https://github.com/CameronCat/archaea-genome-prep/actions/workflows/ci.yml/badge.svg)](https://github.com/CameronCat/archaea-genome-prep/actions)
 [![PyPI](https://img.shields.io/pypi/v/archaea-genome-prep.svg)](https://pypi.org/project/archaea-genome-prep/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -146,7 +146,7 @@ print(result.command_run)  # prints the exact Prokka command
 
 *Methanosarcina acetivorans*, *M. mazei*, and *M. barkeri* encode pyrrolysine at UAG codons. Prokka does not handle this ambiguity — genes containing pyrrolysine UAG codons will be annotated as truncated.
 
-After annotation, use [amber-codon-scanner](https://github.com/CameronPiepkorn/amber-codon-scanner) to identify pyrrolysine-encoding UAG codons in the annotated genome.
+After annotation, use [amber-codon-scanner](https://github.com/CameronCat/amber-codon-scanner) to identify pyrrolysine-encoding UAG codons in the annotated genome.
 
 ---
 

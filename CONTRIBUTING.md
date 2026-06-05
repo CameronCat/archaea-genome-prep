@@ -27,7 +27,7 @@ Open an issue describing:
 ## Development setup
 
 ```bash
-git clone https://github.com/CameronPiepkorn/archaea-genome-prep
+git clone https://github.com/CameronCat/archaea-genome-prep
 cd archaea-genome-prep
 pip install -e ".[dev]"
 pytest

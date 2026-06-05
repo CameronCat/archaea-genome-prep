@@ -29,8 +29,8 @@ dependencies = []
 dev = ["pytest>=7", "pytest-cov"]
 
 [project.urls]
-Homepage = "https://github.com/CameronPiepkorn/archaea-genome-prep"
-"Bug Tracker" = "https://github.com/CameronPiepkorn/archaea-genome-prep/issues"
+Homepage = "https://github.com/CameronCat/archaea-genome-prep"
+"Bug Tracker" = "https://github.com/CameronCat/archaea-genome-prep/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
